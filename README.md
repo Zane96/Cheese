@@ -2,7 +2,7 @@
 一个符合material design的app by android，练习了design包的各种控件。
 
 ###结合之前写的那个知乎日报，练习了design包中的很多控件。
->这个使用了：
+>这个app使用了：
 1.CoordinatorLayout
 2.AppBarLayout
 3.CollapsingToolbarLayout
@@ -13,6 +13,8 @@
 8.NavigationView
 9.DrawerLayout
 10.TabLayout
+
+写的过程中，因为加载的图片特别大，最开始使用fresco加载，界面卡的爆炸。后来改用参考代码的glide来加载图片才使界面正常。算是遇到了一个坑吧。
 
 ###依赖：
 ```
